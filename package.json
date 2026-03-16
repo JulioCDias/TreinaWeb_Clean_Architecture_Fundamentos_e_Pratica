@@ -1,0 +1,29 @@
+{
+  "name": "treinaweb_clean_architecture_fundamentos_e_pratica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules' npx jest tests",
+    "main": "tsc && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulioCDias/TreinaWeb_Clean_Architecture_Fundamentos_e_Pratica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JulioCDias/TreinaWeb_Clean_Architecture_Fundamentos_e_Pratica/issues"
+  },
+  "homepage": "https://github.com/JulioCDias/TreinaWeb_Clean_Architecture_Fundamentos_e_Pratica#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.5.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  }
+}
